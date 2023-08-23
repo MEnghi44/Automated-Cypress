@@ -21,6 +21,8 @@ describe('Processing Document', () => {
 
       it('SAVE-LA-002', () => {
             saveLeave.clickchooseTypeOfLeave();
+            saveLeave.clickNext();
+            saveLeave.clickSelectDateTime();
            
         })
 })
