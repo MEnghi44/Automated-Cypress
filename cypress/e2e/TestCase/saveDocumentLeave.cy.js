@@ -19,12 +19,19 @@ describe('Processing Document', () => {
             cy.visit('https://demo.compupower-home.com:8082/computest/program/HR/wwomanwf/?program=WWOmanWF&RQ_CODE=TAMANAD#/homewf')
       });
 
+      // it('SAVE-LA-001', () => {
+      //       saveLeave.clickCreateDocument();
+      //       saveLeave.clickchooseTypeOfLeaveM();
+      //       saveLeave.clickNext();
+      //       saveLeave.clickSelectDateTime();
+      //       //รอเลือกวันที่
+      //   })
+
       it('SAVE-LA-002', () => {
-            saveLeave.clickchooseTypeOfLeave();
-            saveLeave.clickNext();
-            saveLeave.clickSelectDateTime();
-           
+            saveLeave.clickCreateDocument();
+            saveLeave.clickchooseTypeOfLeaveF();
         })
+      
 })
 
 
